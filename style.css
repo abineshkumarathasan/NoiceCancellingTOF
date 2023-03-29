@@ -1,0 +1,22 @@
+
+#hoved-con {
+    width: 60vw;
+
+    margin: 0 auto;
+}
+
+.bilde-og-bildeTekst {
+    background-color: rgb(194, 192, 192);
+    padding: 12px;
+
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.bilde-for-bildeTekst {
+    width: 34vw; 
+
+    margin-right: 0.3vw;
+}
+
