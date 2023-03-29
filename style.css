@@ -1,12 +1,12 @@
 
 #hoved-con {
-    width: 60vw;
+    width: 65vw;
 
     margin: 0 auto;
 }
 
 .bilde-og-bildeTekst {
-    background-color: rgb(194, 192, 192);
+    background-color: rgba(167, 167, 167, 0.525);
     padding: 12px;
 
     display: flex;
@@ -19,4 +19,8 @@
 
     margin-right: 0.3vw;
 }
+.bilde-for-bildeTekst:hover {
+    width: 35vw;
+}
+
 
