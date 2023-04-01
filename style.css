@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.section-con h2 {
+    margin-top: 30px;
+}
+
 
 #hoved-con {
     width: 65vw;
@@ -5,6 +13,23 @@
     margin: 0 auto;
 }
 
+#nettsideInnhold-con {
+    margin: 0 auto;
+
+    width: fit-content;
+    background-color: rgba(173, 109, 233, 0.425);
+    border: 3px solid rgba(173, 109, 233, 0.667);
+
+    padding: 3%;
+}
+
+#nettsideInnhold-con a{
+    display: block;
+
+    font-size: larger;
+}
+
+/*For bilde tekst og boks (med bakgrunns-farge)*/
 .bilde-og-bildeTekst {
     background-color: rgba(167, 167, 167, 0.525);
     padding: 12px;
@@ -21,6 +46,16 @@
 }
 .bilde-for-bildeTekst:hover {
     width: 35vw;
+}
+
+
+.textOgBildeVedSiden-con {
+    padding: 12px;
+    border: 3px solid rgb(144, 141, 199);
+
+    display: flex;
+    align-items: center;
+    /*align-items: flex-start;*/
 }
 
 
