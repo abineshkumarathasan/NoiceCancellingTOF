@@ -5,22 +5,32 @@ html {
 body{
     margin: 0;
     padding: 0;
-
-    background-image: url('img/images.jpg');
+    
+    /*
+    background-image: url('img/LawrenceJeromeFogelFirstANCHeadphones.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    */
 }
 
-h1 {
+#overskrift {
     background-color: #337AB7;
     color: white;
     padding: 2vw;
     margin: 0;
 
+    margin-left: 5px;
+    margin-right: 5px;
+
     border-bottom-right-radius: 17px;
     border-bottom-left-radius: 17px;
+
+    font-family: "Bauhaus 93";
+    font-size: 5vh;
 }
+
+
 
 .section-con {
     margin-top: 30px;
@@ -40,6 +50,8 @@ h1 {
     width: 65vw;
 
     margin: 0 auto;
+
+    background-color: white;
 }
 
 #nettsideInnhold-con {
@@ -134,4 +146,17 @@ h1 {
     border-radius: 5px;
 
     font-size: larger;
+}
+
+
+#kilder-con div{
+    padding-left: 7vh;
+    padding-right: 3vh;
+
+    margin-top: 4vh;
+    margin-bottom: 20vh;
+}
+
+#kilder-con div p{
+    font-size: small;
 }
